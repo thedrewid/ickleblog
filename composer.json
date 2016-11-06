@@ -1,0 +1,21 @@
+{
+    "name": "ickleblog",
+    "description": "Sick of using wordpress for fucking portfolio sites with blog functionality",
+    "keywords": ["Your keyword", "Another keyword"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Drew Watson",
+            "email": "drew@devdog.com",
+            "role": "Creator / Main Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ickleblog\\": "src/"
+        }
+    }
+}
